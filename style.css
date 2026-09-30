@@ -1,0 +1,31 @@
+/* 3. 제목(h1): 색상과 글꼴 크기 */
+h1 {
+  color: #2b6cb0;
+  font-size: 40px;
+}
+
+/* 4. 본문: padding과 배경색으로 카드처럼 */
+body {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fffbea;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 좋아하는 것 목록: Flexbox로 가로 정렬 */
+.favorites {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.favorites li {
+  padding: 12px 16px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
